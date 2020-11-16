@@ -386,8 +386,9 @@ text-shadow: 3px 3px 0 #9498AB;
 	}
 	#img1{
 		display: block;
-  margin-left: auto;
-  margin-right: auto;
+                margin-left: auto;
+                margin-right: auto;
+		width: 100%;
   
 	}
 }
