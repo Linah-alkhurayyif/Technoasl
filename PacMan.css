@@ -1,10 +1,11 @@
 html,body{
-flex-direction: column;
+  flex-direction: column;
   height: 90%;
   background-image: url('images/bg.png');
   font-family: 'Bungee', cursive;
   color: white;
   background-attachment: fixed;
+  overflow: hidden;
 }
 
 
@@ -314,7 +315,9 @@ text-shadow: 3px 3px 0 #9498AB;
 
 /* RESPONSIVE */
 @media screen and (max-width: 670px){
-	
+	body{
+		overflow: hidden;
+	}
 	#logo{
 		width: 100vw;
 	}
@@ -386,6 +389,7 @@ text-shadow: 3px 3px 0 #9498AB;
 		height:500px;
 		 width:480px; 
 		 margin-top:-1%;
+		 position: static;
 	}
 }
 
