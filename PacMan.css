@@ -382,7 +382,7 @@ text-shadow: 3px 3px 0 #9498AB;
 		
 		width: 120px;
 		position:absolute; 
-		top: 100px;
+		top: 50%;
 		z-index: 1;
 	}
 	#img1{
