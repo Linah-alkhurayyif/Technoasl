@@ -1,6 +1,5 @@
 html,body{
   flex-direction: column;
-  height: 90%;
   background-image: url('images/bg.png');
   font-family: 'Bungee', cursive;
   color: white;
