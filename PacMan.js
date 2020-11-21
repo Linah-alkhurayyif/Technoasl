@@ -338,8 +338,8 @@ const scoreDisplay2 = document.getElementById("score1");
 
 // Check for Win
 	function checkForWin () {
-		//if (toWin >= 374) {
-		if (toWin >= 4) {
+		if (toWin >= 374) {
+		
 			ghosts.forEach(ghost => clearInterval(ghost.timerId));
 			document.removeEventListener("keydown", movePacman);
 			bestScoreCount();
